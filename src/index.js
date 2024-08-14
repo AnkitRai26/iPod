@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import * as firebase from 'firebase';
-
-
+import firebase from 'firebase';
 // Your web app's Firebase configuration
 var firebaseConfig = {
     apiKey: process.env.REACTIVE_POD_API_KEY,
